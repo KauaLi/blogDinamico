@@ -7,10 +7,6 @@
     font-family: "Poppins", serif;
 }
 
-body {
-    background: #E2E8F0;
-}
-
 section {
     width: 80vw;
     margin: 10vh auto;
@@ -20,4 +16,15 @@ img {
     width: 80vw;
     height: 30vh;
     object-fit: cover;
+}
+
+button {
+    position: fixed;
+    top: 5vh;
+    right: 5vw;
+    padding: 2vh;
+    background: black;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
 }
