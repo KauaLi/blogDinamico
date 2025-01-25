@@ -7,6 +7,10 @@
     font-family: "Poppins", serif;
 }
 
+body {
+    background: #E2E8F0;
+}
+
 section {
     width: 80vw;
     margin: 10vh auto;

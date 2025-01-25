@@ -15,25 +15,32 @@
                     Titulo
                 </label>
                 <br>
-                <input type="text" name="title" id="title">
+                <input required type="text" name="title" id="title">
             </div>
             <div class="containerSubtitle">
                 <label for="subtitle">
                     Subtítulo
                 </label>
                 <br>
-                <input type="text" name="subtitle" id="subtitle">
+                <input required type="text" name="subtitle" id="subtitle">
             </div>
             <div>
                 <label for="paragraph">Parágrafo</label>
                 <br>
-                <textarea name="paragraph" id="paragraph" rows="10"></textarea>
+                <textarea required name="paragraph" id="paragraph" rows="10"></textarea>
             </div>
-            <dic class="containerImg">
-                <label for="imageInput"></label>
-                <input type="file" name="image" id="imageInput">
-            </dic>
+            <div class="containerImg">
+                <label class="imageLabel" for="imageInput"><span>Insira sua Imagem</span></label>
+                <input required type="file" name="image" id="imageInput">
+            </div>
+            <div class="containerAuthor">
+                <label for="author">Autor</label>
+                <br>
+                <input required type="text" name="author" id="author">
+            </div>
+                <button type="submit">Publicar</button>
         </form>
     </main>
+    <script src="../javascript/sendPost.js"></script>
 </body>
 </html>

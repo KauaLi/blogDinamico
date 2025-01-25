@@ -7,10 +7,15 @@
     font-family: "Poppins", serif;
 }
 
+body {
+    background: url("../assets/images.jpeg");
+    background-size: cover;
+}
+
 main {
     margin: 10vh auto;
     width: 80vw;
-    background: #FED7AA;
+    background: #94A3B8;
     border-radius: 10px;
     border: 1px solid black;
 }
@@ -30,7 +35,7 @@ label {
 input {
     width: 60vw;
     height: 4vh;
-    background: #FED7AA;
+    background: #94A3B8;
     border: none;
     border-bottom: 1px solid black;
     outline: none;
@@ -43,9 +48,62 @@ div {
 
 textarea {
     width: 100%;
-    background: #FFEDD5;
+    background: #D4D4D4;
+    padding: 1vh;
 }
 
 input[type = file]{
     display: none;
+}
+
+.containerImg {
+    width: 100%;
+}
+
+.imageLabel {
+    width: 100%;
+    height: 25vh;
+    display: block;
+    background: #94A3B8;
+    border: dashed #fff;
+    border-radius: 8px;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageLabel:active {
+    width: 97%;
+    margin: 0 auto;
+}
+
+.imageLabel:hover {
+    background: #fff;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+span {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 0 auto;
+    font-size: 2.5vh;
+    padding: 1.5vh 2vh;
+    font-weight: 600;
+    display: block;
+    border-radius: 8px;
+    background: #fff;
+
 }
